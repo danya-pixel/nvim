@@ -58,3 +58,4 @@ vim.diagnostic.config({
     virtual_text = true
 })
 require'lspconfig'.clangd.setup{}
+require'lspconfig'.marksman.setup{}
